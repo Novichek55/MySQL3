@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [05/Feb/2023:01:05:32 +0600] "GET /favicon.ico HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [05/Feb/2023:01:05:42 +0600] "GET /MYSQL3/test?dataBaseName=mydbtest&user=user2&password=3698 HTTP/1.1" 200 15
+0:0:0:0:0:0:0:1 - - [05/Feb/2023:01:09:34 +0600] "GET /MYSQL3/test?dataBaseName=mydbtest&user=user2&password=3698 HTTP/1.1" 200 15
+0:0:0:0:0:0:0:1 - - [05/Feb/2023:15:58:06 +0600] "GET /favicon.ico HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [05/Feb/2023:15:58:17 +0600] "GET /MYSQL3/test?dataBaseName=mydbtest&user=user2&password=3698 HTTP/1.1" 200 15
+0:0:0:0:0:0:0:1 - - [05/Feb/2023:17:04:42 +0600] "GET /favicon.ico HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [05/Feb/2023:17:04:51 +0600] "GET /MYSQL3/test?dataBaseName=mydbtest&user=user2&password=3698 HTTP/1.1" 200 15

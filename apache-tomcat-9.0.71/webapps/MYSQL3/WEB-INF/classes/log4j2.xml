@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <File name="LogToFile" fileName="logs/app.log" append="false">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+
+                <Logger name="com.mysql." level="all"  additivity="false">
+                    <AppenderRef ref="LogToFile"/>
+                </Logger>
+
+                <Logger name="com.mysql.cj" level="all"  additivity="false">
+                    <AppenderRef ref="LogToFile"/>
+                </Logger>
+
+                <Logger name="com.mysql.cj.jdbc" level="all"  additivity="false">
+                    <AppenderRef ref="LogToFile"/>
+                </Logger>
+
+                <Logger name="com.mysql.cj.log" level="all"  additivity="false">
+                    <AppenderRef ref="LogToFile"/>
+                </Logger>
+
+                <Logger name="com.mysql.jdbc" level="all"  additivity="false">
+                    <AppenderRef ref="LogToFile"/>
+                </Logger>
+
+        <Root level="all">
+
+            <AppenderRef ref="LogToFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
